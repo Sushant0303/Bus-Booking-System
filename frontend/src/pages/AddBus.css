@@ -1,0 +1,72 @@
+/* ===== PAGE ===== */
+
+.addbus-page {
+  min-height: 100vh;
+  background: #f5f6fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+/* ===== CARD ===== */
+
+.addbus-card {
+  width: 420px;
+  background: white;
+  padding: 30px;
+  border-radius: 14px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+}
+
+/* ===== TITLE ===== */
+
+.addbus-title {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #d84e55;
+}
+
+/* ===== INPUTS ===== */
+
+.addbus-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 14px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  outline: none;
+  font-size: 14px;
+}
+
+.addbus-input:focus {
+  border-color: #d84e55;
+}
+
+/* ===== LABEL ===== */
+
+.addbus-label {
+  font-size: 13px;
+  color: #555;
+  margin-bottom: 4px;
+  display: block;
+}
+
+/* ===== BUTTON ===== */
+
+.addbus-btn {
+  width: 100%;
+  padding: 12px;
+  background: #d84e55;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.addbus-btn:hover {
+  background: #c43f46;
+}

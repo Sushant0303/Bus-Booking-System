@@ -1,0 +1,66 @@
+/* ===== PAGE ===== */
+
+.search-page {
+  padding: 20px;
+  background: #f5f6fa;
+  min-height: 100vh;
+}
+
+/* ===== BUS CARD ===== */
+
+.bus-card {
+  background: white;
+  border-radius: 12px;
+  padding: 18px;
+  margin-top: 15px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  transition: 0.2s;
+}
+
+.bus-card:hover {
+  transform: translateY(-3px);
+}
+
+/* LEFT SIDE */
+
+.bus-left h3 {
+  margin: 0;
+  color: #222;
+}
+
+.route {
+  margin-top: 8px;
+  font-size: 15px;
+  color: #555;
+}
+
+/* RIGHT SIDE */
+
+.bus-right {
+  text-align: right;
+}
+
+.price {
+  font-size: 22px;
+  font-weight: bold;
+  color: #d84e55;
+  margin-bottom: 10px;
+}
+
+.view-btn {
+  padding: 8px 14px;
+  background: #d84e55;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.view-btn:hover {
+  background: #c43f46;
+}

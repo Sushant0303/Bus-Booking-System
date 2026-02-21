@@ -1,0 +1,32 @@
+.admin-page {
+  padding: 20px;
+  background: #f5f6fa;
+  min-height: 100vh;
+}
+
+.admin-title {
+  margin-bottom: 20px;
+  color: #d84e55;
+}
+
+.admin-bus-card {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+.delete-btn {
+  margin-top: 10px;
+  padding: 8px 12px;
+  background: #ff3b3b;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.delete-btn:hover {
+  background: #d92a2a;
+}

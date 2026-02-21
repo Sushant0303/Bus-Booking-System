@@ -1,0 +1,125 @@
+/* ===== PAGE ===== */
+
+.seat-page {
+  padding: 20px;
+}
+
+.seat-title {
+  margin-bottom: 20px;
+}
+
+/* DRIVER */
+.driver {
+  width: 120px;
+  text-align: center;
+  padding: 10px;
+  background: #eee;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+/* GRID */
+.seat-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 60px) 40px repeat(2, 60px);
+  gap: 12px;
+}
+
+/* EMPTY AISLE */
+.aisle {
+  visibility: hidden;
+}
+
+/* SEAT BUTTON */
+.seat-btn {
+  height: 50px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  color: white;
+  transition: 0.2s;
+}
+
+.seat-btn:hover {
+  transform: scale(1.05);
+}
+
+/* COLORS */
+.available {
+  background: #28a745;
+}
+
+.selected {
+  background: #007bff;
+}
+
+.booked {
+  background: #dc3545;
+  cursor: not-allowed;
+}
+
+/* LEGEND */
+.legend {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.legend-box {
+  width: 20px;
+  height: 20px;
+  border-radius: 4px;
+}
+
+/* ===== TICKET POPUP ===== */
+
+.ticket-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ticket-popup {
+  background: white;
+  padding: 25px;
+  width: 320px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+  animation: popup 0.3s ease;
+}
+
+.close-ticket-btn {
+  margin-top: 15px;
+  padding: 8px 15px;
+  background: #d84e55;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+@keyframes popup {
+  from {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
